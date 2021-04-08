@@ -2,6 +2,8 @@
 
 [This is  a new update of the origin (Google's) BERT implementation ](https://github.com/lambdal/bert)
 
+
+[Horovod环境搭建指南](https://zhuanlan.zhihu.com/p/351693076)
 ==具体细节先参照原文链接==
 
 

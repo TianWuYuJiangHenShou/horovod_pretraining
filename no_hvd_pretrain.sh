@@ -1,0 +1,2 @@
+#export BERT_BASE_DIR=/root/berts/chinese_roberta_wwm_ext_L-12_H-768_A-12/
+python run_pretraining.py --input_file=./resources/tf_news.tfrecord  --output_dir=my_new_model_path --do_train=True --do_eval=True --bert_config_file=/root/berts/chinese_roberta_wwm_ext_L-12_H-768_A-12/bert_config.json --train_batch_size=32 --max_seq_length=128 --max_predictions_per_seq=23 --num_train_steps=20 --num_warmup_steps=10 --learning_rate=2e-5

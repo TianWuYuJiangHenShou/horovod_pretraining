@@ -6,6 +6,12 @@
 [Horovod环境搭建指南](https://zhuanlan.zhihu.com/p/351693076)
 
 
+[个人关于分布式机器学习的总结](https://zhuanlan.zhihu.com/p/365662727)
+- TensorFlow
+- Pytorch
+- Horovod
+- kubeflow
+
 ==具体细节先参照原文链接==
 
 

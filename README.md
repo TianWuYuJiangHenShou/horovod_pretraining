@@ -35,3 +35,6 @@ ERROR: Using member tf.flags in deprecated module tf.flags. tf.flags and tf.app.
 - batch_size 按照实际情况适当调整，不然会OOM
 - no_hvd_pretrain.sh   正常情况下的预训练
 - hvd_pretrain.sh Horovod多机多卡情况下的分布式训练
+
+## 深坑警告
+要注意下TF和cuda的版本。cuda 10.1+tf1.x的情况下，回发现GPU只占用了99M(利用率低)，升级成2.x后发现正常使用了。

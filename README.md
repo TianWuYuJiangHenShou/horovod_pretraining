@@ -1,4 +1,4 @@
-# Horovod Multi Node Multi GPUS Ready BERT
+# Horovod Multi Node Multi GPUS Ready For BERT
 
 [This is  a new update of the origin (Google's) BERT implementation ](https://github.com/lambdal/bert)
 
